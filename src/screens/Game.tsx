@@ -95,7 +95,7 @@ export const Game = () => {
       switch (message.type) {
         case GAME_ADDED:
           setAdded(true);
-          setGameID((p)=>message.gameId);
+          setGameID(()=>message.gameId);
           break;
         case INIT_GAME:
           setBoard(chess.board());
