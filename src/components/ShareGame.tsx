@@ -8,7 +8,7 @@ export const ShareGame = ({className,gameId}:{className?:string,gameId:string}) 
 
     const handleCopy = ()=>{
         window.navigator.clipboard.writeText(url);
-        setCopied((p)=>true);
+        setCopied(()=>true);
     }
 
     return (
@@ -26,7 +26,7 @@ export const ShareGame = ({className,gameId}:{className?:string,gameId:string}) 
                     {url}
                 </div>
             </div>
-            
+
             <Button onClick={handleCopy}>
                 {copied ? `Copied to Clipboard !!` : `Copy the link`}
             </Button>
