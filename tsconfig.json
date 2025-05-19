@@ -5,7 +5,8 @@
     "lib": ["ES2023","ES2022","ES2020", "DOM", "DOM.Iterable",],
     "module": "ESNext",
     "skipLibCheck": true,
-
+    "rootDir": "./src",
+    "outDir": "./dist",
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
@@ -24,6 +25,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
+
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
