@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useUser } from '@repo/store/useUser';
+import { useUser } from '@nilesh_01/store/useUser';
 
 const WS_URL = import.meta.env.VITE_APP_WS_URL ?? 'ws://localhost:8080';
 

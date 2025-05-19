@@ -1,4 +1,4 @@
-import { useUser } from '@repo/store/useUser';
+import { useUser } from '@nilesh_01/store/useUser';
 import { Metadata, Player } from '../screens/Game';
 
 interface UserAvatarProps {

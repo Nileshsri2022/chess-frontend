@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { useRef } from 'react';
 import { useRecoilState } from 'recoil';
-import { userAtom } from '@repo/store/userAtom';
+import { userAtom } from '@nilesh_01/store/userAtom';
 
 const BACKEND_URL =
   import.meta.env.VITE_APP_BACKEND_URL ?? 'http://localhost:3000';

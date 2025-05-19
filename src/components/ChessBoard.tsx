@@ -13,7 +13,7 @@ import CaptureSound from '/capture.wav';
 
 import { useRecoilState } from 'recoil';
 
-import { isBoardFlippedAtom, movesAtom, userSelectedMoveIndexAtom } from '@repo/store/chessBoard';
+import { isBoardFlippedAtom, movesAtom, userSelectedMoveIndexAtom } from '@nilesh_01/store/chessBoard';
 
 export function isPromoting(chess: Chess, from: Square, to: Square) {
   if (!from) {

@@ -8,7 +8,7 @@ import { useSocket } from '../hooks/useSocket';
 import { Chess, Move } from 'chess.js';
 import { useNavigate, useParams } from 'react-router-dom';
 import MovesTable from '../components/MovesTable';
-import { useUser } from '@repo/store/useUser';
+import { useUser } from '@nilesh_01/store/useUser';
 import { UserAvatar } from '../components/UserAvatar';
 
 // TODO: Move together, there's code repetition here
@@ -43,7 +43,7 @@ export interface Player {
 }
 import { useRecoilValue, useSetRecoilState } from 'recoil';
 
-import { movesAtom, userSelectedMoveIndexAtom } from '@repo/store/chessBoard';
+import { movesAtom, userSelectedMoveIndexAtom } from '@nilesh_01/store/chessBoard';
 import GameEndModal from '@/components/GameEndModal';
 import { Waitopponent } from '@/components/ui/waitopponent';
 import { ShareGame } from '../components/ShareGame';
